@@ -1,6 +1,7 @@
 apply plugin: 'com.android.application'
 
 android {
+    namespace 'com.tbruyelle.rxpermissions3.sample'
     compileSdkVersion rootProject.ext.compileSdkVersion
 
     compileOptions {
